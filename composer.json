@@ -8,14 +8,13 @@
         }
     ],
     "require": {
-        "laravel/framework": "4.*",
-        "illuminate/support": "4.x"
+        "laravel/framework": "^9.19"
     },
     "require-dev": {
-        "mockery/mockery": "dev-master"
+        "mockery/mockery": "^1.4.4"
     },
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "Andheiberg\\Readable": "src/"
         },
         "classmap": [
